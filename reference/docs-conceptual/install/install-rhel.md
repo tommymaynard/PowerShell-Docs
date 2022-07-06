@@ -1,6 +1,6 @@
 ---
 description: Information about installing PowerShell on Red Hat Enterprise Linux (RHEL)
-ms.date: 05/18/2022
+ms.date: 05/31/2022
 title: Installing PowerShell on Red Hat Enterprise Linux (RHEL)
 ---
 # Installing PowerShell on Red Hat Enterprise Linux (RHEL)
@@ -59,10 +59,8 @@ with `sudo dnf upgrade powershell`.
 PowerShell 7.2 is distributed as a universal RPM package. Previous versions of PowerShell had
 separate package for each OS. Download the RPM package you need onto your CentOS machine.
 
-- PowerShell 7.2.4 - `https://github.com/PowerShell/PowerShell/releases/download/v7.2.4/powershell-lts-7.2.4-1.rh.x86_64.rpm`
-- PowerShell 7.0.10
-  - CentOS 7 - `https://github.com/PowerShell/PowerShell/releases/download/v7.0.10/powershell-7.0.10-1.rhel.7.x86_64.rpm`
-  - CentOS 8 - `https://github.com/PowerShell/PowerShell/releases/download/v7.0.10/powershell-7.0.10-1.centos.8.x86_64.rpm`
+- PowerShell 7.2.5 - `https://github.com/PowerShell/PowerShell/releases/download/v7.2.5/powershell-lts-7.2.5-1.rh.x86_64.rpm`
+- PowerShell 7.0.11 - `https://github.com/PowerShell/PowerShell/releases/download/v7.0.11/powershell-lts-7.0.11-1.rhel.7.x86_64.rpm`
 
 Use the following shell command to install the latest RPM package on the target version of RHEL.
 Change the URL in the following shell commands to match the version you need.
@@ -70,13 +68,13 @@ Change the URL in the following shell commands to match the version you need.
 On RHEL 7:
 
 ```sh
-sudo yum install https://github.com/PowerShell/PowerShell/releases/download/v7.2.4/powershell-lts-7.2.4-1.rh.x86_64.rpm
+sudo yum install https://github.com/PowerShell/PowerShell/releases/download/v7.2.5/powershell-lts-7.2.5-1.rh.x86_64.rpm
 ```
 
 On RHEL 8:
 
 ```sh
-sudo dnf install https://github.com/PowerShell/PowerShell/releases/download/v7.2.4/powershell-lts-7.2.4-1.rh.x86_64.rpm
+sudo dnf install https://github.com/PowerShell/PowerShell/releases/download/v7.2.5/powershell-lts-7.2.5-1.rh.x86_64.rpm
 ```
 
 ## Uninstallation - Red Hat Enterprise Linux (RHEL) 7

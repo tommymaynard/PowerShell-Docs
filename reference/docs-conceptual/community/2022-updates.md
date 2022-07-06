@@ -1,6 +1,6 @@
 ---
 description: List of changes to the PowerShell documentation for 2022
-ms.date: 05/03/2022
+ms.date: 07/05/2022
 title: What's New in PowerShell-Docs for 2022
 ---
 # What's new in PowerShell Docs for 2022
@@ -10,6 +10,95 @@ contributions from the community.
 
 Help us make the documentation better for you. Read the [Contributor's Guide][contrib] to learn how
 to get started.
+
+## 2022-June
+
+New content migrated from GitHub wiki
+
+- [Limitations of PowerShell transcripts](/powershell/scripting/learn/deep-dives/output-missing-from-transcript)
+- [Avoid using Invoke-Expression](/powershell/scripting/learn/deep-dives/avoid-using-invoke-expression)
+- [Avoid assigning variables in expressions](/powershell/scripting/learn/deep-dives/avoid-assigning-variables-in-expressions)
+- [about_Case-Sensitivity]( /powershell/module/microsoft.powershell.core/about/about_case-sensitivity)
+- Updated [about_Arrays](/powershell/module/microsoft.powershell.core/about/about_arrays)
+
+New SecretManagement content
+
+- [Understanding the security features of SecretManagement and SecretStore](/powershell/utility-modules/secretmanagement/security-concepts)
+- [Using the SecretStore in automation](/powershell/utility-modules/secretmanagement/how-to/using-secrets-in-automation)
+- [Using Azure Key Vault in automation](/powershell/utility-modules/secretmanagement/how-to/using-azure-keyvault)
+
+Content updates
+
+- Updated release notes for 7.3-preview.5 and PSReadLine 2.2.6
+
+### Top Community Contributors
+
+GitHub stats
+
+- 44 PRs merged (8 from Community)
+- 23 issues opened (14 from Community)
+- 23 issues closed (13 Community issues closed)
+
+The following people have contributed to PowerShell docs by submitting pull requests or filing
+issues. Thank you!
+
+| GitHub Id  | PRs merged | Issues opened |
+| ---------- | :--------: | :-----------: |
+| mcdonaldjc |     2      |       1       |
+| radrow     |     1      |               |
+| yecril71pl |     1      |               |
+| muhahaaa   |     1      |               |
+| windin7cc  |     1      |               |
+| fabiod89   |     1      |               |
+| NaridaL    |     1      |               |
+
+## 2022-May
+
+New content
+
+- [Create a Crescendo configuration using the Crescendo cmdlets](/powershell/utility-modules/crescendo/advanced/using-crescendo-cmdlets)
+- [Overview of the SecretManagement and SecretStore modules](/powershell/utility-modules/secretmanagement/overview)
+- [Get started with the SecretStore module](/powershell/utility-modules/secretmanagement/get-started/using-secretstore)
+- [Understanding the SecretManagement module](/powershell/utility-modules/secretmanagement/get-started/understanding-secretmanagement)
+- [Managing a SecretStore vault](/powershell/utility-modules/secretmanagement/how-to/manage-secretstore)
+
+Content updates
+
+- Renamed the `staging` branch to `main`
+- Updated the Table of Contents for easier discovery
+  - Moved Support Lifecycle to the top level
+  - Moved Contributor Guide to the top level
+- 7.3-preview.4 release notes
+- Bulk formatting cleanup for many docs
+  - PowerShell-Docs content - 272 files
+  - Secrets management - 17 files
+- Updated the PSScriptAnalyzer README and deleted docs that were migrated to docs.microsoft.com
+- Removed CentOS and Fedora from docs - no longer supported
+- Retired 7.1 content - no longer supported
+  - Collapse release notes into diff article
+  - Delete or move content to archive repo
+
+### Top Community Contributors
+
+GitHub stats
+
+- 53 PRs merged (12 from Community)
+- 38 issues opened (21 from Community)
+- 39 issues closed (26 Community issues closed)
+
+The following people have contributed to PowerShell docs by submitting pull requests or filing
+issues. Thank you!
+
+|    GitHub Id     | PRs merged | Issues opened |
+| ---------------- | :--------: | :-----------: |
+| tommymaynard     |     5      |               |
+| naveensrinivasan |     2      |               |
+| rikurauhala      |     1      |               |
+| joshua6point0    |     1      |               |
+| rhorber          |     1      |               |
+| Raton-Laveur     |     1      |               |
+| StephenRoille    |     1      |               |
+| krlinus          |            |       2       |
 
 ## 2022-April
 
